@@ -22,6 +22,23 @@ The goal was to analyze sales, profit, and customer trends to identify:
 
 ---
 
+## 💡 Key Analytical Insight: Discount Profitability
+
+The analysis revealed that discounts are the single largest driver of negative profit margin. The primary actionable insight is the clear threshold for when discounts transition from driving lower margin sales to causing significant losses.
+
+| Discount Range | Total Profit | Profit Margin (%) |
+|:---|:---|:---|
+| 0% | **+\$320,987.60** | **29.51%** |
+| 10% - 20% | **+\$10,448.17** | **12.75%** |
+| 20% - 30% | **+\$90,337.31** | **11.82%** |
+| **30% - 40%** | **-\$12,748.36** | **-10.86%** |
+| **40% - 50%** | **-\$25,550.16** | **-20.96%** |
+| **> 50%** | **-\$97,065.48** | **-78.82%** |
+
+**Conclusion:** The Superstore must re-evaluate any discount policy that authorizes discounts **above 20%**, as these ranges are directly responsible for the majority of the company's losses.
+
+---
+
 ## 🧹 Data Cleaning & Preparation
 Steps performed in Excel:
 1. **Converted dates** to proper Excel date format and extracted **Year, Month, and Day of Week**.  
@@ -77,23 +94,6 @@ Each dashboard is dynamic, using slicer for **Year** filter, with unified fonts 
 
 ---
 
-## 💡 Key Insights
-
-### Sales & Profit
-- Overall **sales and profit increased steadily** from 2014 to 2017, with a sharp growth in 2017.  
-- **West region** led in both sales and profit, while **South** lagged.  
-- A few states like **California and New York** dominated overall performance.
-
-### Products
-- **Technology** and **Office Supplies** contributed most to profit, while **Furniture** had lower margins.  
-- Some products with **high discounts** often led to **negative profits**, highlighting discount misuse.  
-
-### Customers
-- The **Consumer segment** brought the highest revenue, but **Corporate** customers were more profitable.  
-- Average shipping time varied across modes — **Standard Class** dominated total orders.  
-
----
-
 ## 🪄 Tools & Skills Demonstrated
 
 1. Excel Data Cleaning
@@ -102,21 +102,6 @@ Each dashboard is dynamic, using slicer for **Year** filter, with unified fonts 
 4. Slicers and Interactive Dashboards
 5. Conditional Formatting for Profit/Loss Visualization
 6. Analytical Storytelling through Dashboards
-
-## 💡 Key Analytical Insight: Discount Profitability
-
-The analysis revealed that discounts are the single largest driver of negative profit margin. The primary actionable insight is the clear threshold for when discounts transition from driving lower margin sales to causing significant losses.
-
-| Discount Range | Total Profit | Profit Margin (%) |
-|:---|:---|:---|
-| 0% | **+\$320,987.60** | **29.51%** |
-| 10% - 20% | **+\$10,448.17** | **12.75%** |
-| 20% - 30% | **+\$90,337.31** | **11.82%** |
-| **30% - 40%** | **-\$12,748.36** | **-10.86%** |
-| **40% - 50%** | **-\$25,550.16** | **-20.96%** |
-| **> 50%** | **-\$97,065.48** | **-78.82%** |
-
-**Conclusion:** The Superstore must re-evaluate any discount policy that authorizes discounts **above 20%**, as these ranges are directly responsible for the majority of the company's losses.
 
 ---
 
