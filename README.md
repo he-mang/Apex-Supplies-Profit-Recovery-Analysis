@@ -106,13 +106,32 @@ There is a clear overall positive growth in both total sales and total profit ac
 ### 8. Which customer segment generates the highest sales and profit?
 <img width="859" height="603" alt="image" src="https://github.com/user-attachments/assets/9bb13dc6-400a-45de-87e8-e3e98c3eae26" />
 
-
 **Highest Sales:** The Consumer segment generates the highest total sales.
 
 **Highest Profit Margin (Target):** The Home Office and Corporate segments have a higher profit margin than the Consumer segment. This suggests that while Consumers buy more, Corporate and Home Office customers are more profitable per dollar of sale.
 
 **Action:** Target the Corporate and Home Office segments for higher-margin products (e.g., Technology and Office Supplies).
 
+### 9. What are the patterns, frequency, and volume of orders?
+<img width="1250" height="619" alt="image" src="https://github.com/user-attachments/assets/09083afe-0854-4718-b221-6c3b61a5bc0a" />
+
+Orders consistently rise throughout the year, peaking in November/December and dropping in January/February.
+
+### 10. What is the average shipping time for each ship mode?
+
+The different shipping modes (Standard Class, Second Class, First Class, Same Day) have different average shipping times.
+
+Standard Class is typically the slowest, and Same Day is the fastest.
+
+### 11. How are discounts distributed and what is the impact of discounts on sales?
+
+The discount distribution shows that the majority of discounted items are discounted at 20%. However, a small number of orders receive very large discounts (up to 80%), which are typically the transactions that result in the largest losses.
+
+The data shows that high discounts (specifically those greater than 40%) often lead to negative profits/losses.
+
+Discounts are concentrated in certain low-profit sub-categories like Tables and Bookcases (often in the 40-80% range in high-loss states like Texas and Illinois).
+
+---
 
 All PivotTables are **linked to a Year slicer** for interactive filtering.
 
