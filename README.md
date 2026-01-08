@@ -1,7 +1,7 @@
 # APEX SUPPLIES: The Profit Erosion Crisis & The 20% Solution (2014-2017)
 
 **A Data Analysis Project by:** Hemang Chaudhary  
-**Tools Used:** Microsoft Excel (Advanced Formulas, PivotTables, Slicers, Conditional Formatting)
+**Tools Used:** Microsoft Excel (Advanced Formulas, PivotTables, Slicers, Conditional Formatting)  
 **Dataset:** [Fictional Apex Supplies Dataset – Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)  
 
 ---
